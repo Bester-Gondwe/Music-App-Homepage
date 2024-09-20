@@ -131,13 +131,13 @@ fun MusicApp(songs: List<Song>, currentlyPlaying: Song) {
                     IconButton(onClick = {}) {
                         Icon(
                             painter = painterResource(id = R.drawable.baseline_library_music_24),
-                            contentDescription = "Library"
+                            contentDescription = "Libraries"
                         )
                     }
                     IconButton(onClick = {}) {
                         Icon(
                             painter = painterResource(id = R.drawable.baseline_account_circle_24),
-                            contentDescription = "Account"
+                            contentDescription = "my account"
                         )
                     }
                 }

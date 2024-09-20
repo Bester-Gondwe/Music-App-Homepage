@@ -7,9 +7,9 @@ import com.example.musicstreamingapp.Song
 // Sample implementation for getSampleSongsList
 fun getSampleSongsList(): List<Song> {
     return listOf(
-        Song("Trans MbeMbe", "Mzuni", R.drawable.artwork1, R.drawable.artwork10),
-        Song("ShoowShoow", "HayeHaye", R.drawable.artwork2, R.drawable.artwork6),
-        Song("Mpunga wanyama", "Guntola", R.drawable.artwork3, R.drawable.artwork7),
+        Song("Trans MbeMbe", "Mzuni", R.drawable.artwork1, R.raw.song_2),
+        Song("ShoowShoow", "HayeHaye", R.drawable.artwork2, R.raw.song_5),
+        Song("Mpunga wanyama", "Guntola", R.drawable.artwork3, R.raw.song_3),
         Song("Mawibowibo", "Gloria", R.drawable.artwork1, R.raw.song_3),
         Song("Your Yaweh", "Sandra", R.drawable.artwork2, R.raw.song_5),
         Song("Mazommbie", "Bester", R.drawable.hacker, R.raw.song_2),
