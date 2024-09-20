@@ -22,6 +22,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.musicstreamingapp.ui.theme.Purple40
 
 
 @Composable
@@ -44,9 +45,11 @@ fun MusicApp(songs: List<Song>, currentlyPlaying: Song) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Title Text
+
             Text(
-                "Music player",
+                "SoundScape",
                 fontSize = 30.sp,
+                color = Purple40,
                 style = MaterialTheme.typography.titleLarge,
                 modifier = Modifier.padding(bottom = 8.dp)
             )
